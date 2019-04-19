@@ -1,0 +1,72 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "outDir": "build/main",
+      "rootDir": "src",
+      "moduleResolution": "node",
+      "module": "UMD",
+      "declaration": true,
+      "importHelpers": true,
+      "inlineSourceMap": true,
+      "listFiles": false,
+      "traceResolution": false,
+      "pretty": true,
+      "lib" : [
+        "es5",
+        "dom",
+        "ScriptHost"
+      ],
+      "types" : [
+        "node",
+        "jest"
+      ],
+      "baseUrl": ".",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./src/types"
+      ]
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules/**"
+    ],
+    "compileOnSave": true,
+  
+    /* Strict Options */
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny" : true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  
+    /* Generated Docs */
+    "typedocOptions": {
+      "emitDecoratorMetadata": true,
+      "exclude": "**/*.spec.ts",
+      "excludeExternals": true,
+      "excludePrivate": true,
+      "excludeProtected": true,
+      "experimentalDecorators": true,
+      "hideGenerator": true,
+      "ignoreCompilerErrors": true,
+      "includeDeclarations": false,
+      "mode": "file",
+      "name": "csrf-token",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "out": "build/docs",
+      "preserveConstEnums": true,
+      "readme": "README.md",
+      "stripInternal": true,
+      "suppressExcessPropertyErrors": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "ES5",
+      "theme": "minimal"
+    }
+  }
+  

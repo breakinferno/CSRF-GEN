@@ -1,0 +1,7 @@
+// ts-jest 使用配置
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true
+    }
+}
