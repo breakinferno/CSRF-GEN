@@ -1,3 +1,4 @@
 build/
 src/config/app.js
 node_modules
+*-lock.json

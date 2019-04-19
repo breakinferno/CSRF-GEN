@@ -1,4 +1,4 @@
-import fizzBuzz from '../index';
+let fizzBuzz =  require('../../build/main/index');
 
 test('FizzBuzz test', () => {
   expect(fizzBuzz(2)).toBe('1 2 ');

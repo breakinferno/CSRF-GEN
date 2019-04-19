@@ -25,7 +25,7 @@ module.exports = {
     'node',
   ],
   transform: {
-    "^.+\\.tsx?$": "ts-jest"
+    "^.+\\.(tsx?|jsx)$": "ts-jest"
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
   collectCoverageFrom: [

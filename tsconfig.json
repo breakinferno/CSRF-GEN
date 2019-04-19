@@ -1,26 +1,29 @@
 {
     "compilerOptions": {
-      "target": "es5",
+      "target": "es6",
       "outDir": "build/main",
       "rootDir": "src",
       "moduleResolution": "node",
-      "module": "UMD",
+      "module": "es2015",
       "declaration": true,
       "importHelpers": true,
       "inlineSourceMap": true,
       "listFiles": false,
       "traceResolution": false,
+      "esModuleInterop": true,
       "pretty": true,
       "lib" : [
         "es5",
         "dom",
         "ScriptHost"
       ],
+      /*使用的types*/
       "types" : [
         "node",
         "jest"
       ],
       "baseUrl": ".",
+      /*type路径，默认层级向上的node_modules/@types目录*/
       "typeRoots": [
         "./node_modules/@types",
         "./src/types"
