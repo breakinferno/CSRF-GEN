@@ -1,4 +1,4 @@
 // 懒得写测试用例了
-test('csrf-token', () => {
+test('esm-csrf', () => {
   expect(1 + 1).toBe(2);
 });

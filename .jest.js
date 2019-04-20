@@ -23,6 +23,7 @@ module.exports = {
   testPathIgnorePatterns: [
     '/node_modules/',
     'node',
+    '/build/'
   ],
   transform: {
     "^.+\\.(tsx?|jsx)$": "ts-jest"

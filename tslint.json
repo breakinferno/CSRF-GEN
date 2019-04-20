@@ -18,6 +18,9 @@
           }
         }
       ]
+    },
+    "linterOptions": {
+      "exclude": ["src/**/*.d.ts"]
     }
   }
   

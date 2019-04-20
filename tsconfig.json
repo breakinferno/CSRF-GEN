@@ -20,7 +20,8 @@
       /*使用的types*/
       "types" : [
         "node",
-        "jest"
+        "jest",
+        "koa"
       ],
       "baseUrl": ".",
       /*type路径，默认层级向上的node_modules/@types目录*/
@@ -35,7 +36,7 @@
     "exclude": [
       "node_modules/**"
     ],
-    "compileOnSave": true,
+    "compileOnSave": false,
   
     /* Strict Options */
     "strictNullChecks": true,
