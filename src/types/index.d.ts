@@ -1,5 +1,5 @@
 declare interface CookieOption {
-  secure: Boolean,
-  path: String,
-  overwrite: Boolean,
+  secure?: Boolean,
+  path?: String,
+  overwrite?: Boolean,
 }
